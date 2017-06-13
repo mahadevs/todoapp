@@ -21,6 +21,14 @@
         h1{
             text-align: center;
         }
+        li input[type=text]{
+            display: none;
+        }
+        li.editmode input[type=text]
+        {
+            display: inline-block;
+        }
+       
     </style>
 </head>
 
@@ -29,7 +37,7 @@
     <div class="main">
         <h1>To Do App</h1>
 
-        <input type="text" name="addtask" value="" id="addtask"> &nbsp; <button id="addbutton">Add Task</button>
+        <input type="text" name="addtask" value=""> &nbsp; <button id="addbutton">Add Task</button>
 
         <div class="todo-list">
             <h2>Tasks List</h2>
@@ -51,7 +59,7 @@
 
         </div>
     </div>
-    <script type="text/javascript" src="tasks.js"></script>
+    <script type="text/javascript" src="task1.js"></script>
 
 
 </body>
